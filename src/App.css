@@ -1,0 +1,70 @@
+.App {
+  padding: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.antd-card-wrapper{
+  display: flex;
+  column-gap: 36px;
+  align-items: center;
+}
+
+.antd-text-wrapper{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.antd-list-wrapper{
+  font-size: 16px;
+}
+
+.antd-button-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.antd-button-default{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 48%;
+}
+.antd-button-icon{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 48%;
+}
+
+.parallax {
+  overflow: hidden;
+  letter-spacing: -2px;
+  line-height: 0.8;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax .scroller {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 64px;
+  display: flex;
+  white-space: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.parallax span {
+  display: block;
+  margin-right: 30px;
+}
